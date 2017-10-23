@@ -10,7 +10,7 @@ public class GameboardTest extends TestCase
     public void testAddCell()
     {
         GameBoard gameboard = new GameBoard();
-        assertEquals(0, gameboard.getCellNumber());
+        assertEquals(0, gameboard.getCellNumber());;
         Cell cell = new Cell();
         gameboard.addCell(cell);
         assertEquals(1, gameboard.getCellNumber());
